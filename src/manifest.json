@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Tab Wrangler",
+    "description": "Automatically move tabs to their own dedicated windows.",
+    "version": "1.0",
+
+    "permissions": [
+        "tabs"
+    ],
+    "options_page": "options.html",
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
